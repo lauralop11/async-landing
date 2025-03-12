@@ -13,7 +13,7 @@ async function fetchData(urlApi) {
     ${characters.results.map(character =>{
       return `<div class="group relative">
         <div class="mt-4 flex justify-between">
-          <h3 class="text-sm text-gray-700">
+          <h3 class="text-sm text-gray-700 font-bold">
             ${character.name}
           </h3>
           <p class="text-sm text-gray-500">
